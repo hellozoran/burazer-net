@@ -1,32 +1,18 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
+    <img alt="Burazer" srcset="./../assets/burazer.png, ./../assets/burazer@2x.png 2x">
+    <div>
+      <h1 style="display: block;line-height: 1.2"><span style="font-weight: bold">Rivers</span> feat Catrin Noise is now available!</h1>
+      <h3>Listen now on your favorite streaming services</h3>
+    </div>
+    
     <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
+      <li><a href="https://open.spotify.com/track/6hKxKDZQSh4chjiyzTGnsQ?si=vCa6aG31TXm_gqbOR9sSMA" target="_blank" rel="noopener">Spotify</a></li>
+      <li><a href="https://music.apple.com/us/album/rivers-feat-catrin-noise-single/1559376507" target="_blank" rel="noopener">Apple Music</a></li>
+      <li><a href="https://music.youtube.com/watch?v=be3Lf9MgztM&feature=share" target="_blank" rel="noopener">YouTube Music</a></li>
     </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+
+    <p>2021 &copy; RevolutionsRecords.com</p>
   </div>
 </template>
 
@@ -41,6 +27,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.hello {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
 h3 {
   margin: 40px 0 0;
 }
